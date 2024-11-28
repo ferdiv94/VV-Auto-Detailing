@@ -1,100 +1,65 @@
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
     line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
 nav {
-    background-color: #00274d;
+    background: #00274d;
     padding: 10px 0;
 }
 
 .nav-container {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
 .nav-links {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    gap: 20px;
-}
-
-.nav-links li {
-    display: inline-block;
+    gap: 15px;
 }
 
 .nav-links a {
+    color: white;
     text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    transition: color 0.3s ease;
+    padding: 5px 10px;
+    transition: background 0.3s;
 }
 
 .nav-links a:hover {
-    color: #00aaff;
+    background: #0056b3;
+    border-radius: 5px;
 }
 
 main {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background: #f4f4f4;
+    background: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
-    color: #00274d;
-}
-
-/* Footer Styling */
-.site-footer {
-    background-color: #ffffff;
+footer {
+    background: #ffffff;
+    color: #333;
     padding: 20px 0;
     text-align: center;
     border-top: 1px solid #ccc;
 }
 
-.site-footer .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    color: #333;
-}
-
-.site-footer .footer-logo img {
-    width: 80px; /* Resize logo */
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.site-footer .footer-info {
-    margin: 10px 0;
-    line-height: 1.5;
-}
-
-.site-footer .footer-social a {
+footer img {
+    width: 24px;
     margin: 0 10px;
-    display: inline-block;
-    transition: transform 0.3s ease;
 }
 
-.site-footer .footer-social img {
-    width: 24px; /* Resize social media icons */
-    height: 24px;
-    transition: transform 0.3s ease;
-}
-
-.site-footer .footer-social img:hover {
+footer img:hover {
     transform: scale(1.1);
 }
