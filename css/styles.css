@@ -126,6 +126,7 @@ h1, h2, h3 {
 .site-footer .footer-social a {
     margin: 0 10px;
     display: inline-block;
+    transition: transform 0.3s ease;
 }
 
 .site-footer .footer-social img {
